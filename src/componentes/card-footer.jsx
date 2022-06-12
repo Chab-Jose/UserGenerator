@@ -1,5 +1,4 @@
 
-import "./card-footer.css";
 import User from "./iconos/user";
 import Email from "./iconos/email";
 import Birthday from "./iconos/birthday";
@@ -15,9 +14,7 @@ function CardFooter({cambiaTextos, textos }) {
         e.target.setAttribute('class', 'Active');
         cambiaTextos(e.target.getAttribute('name'));
 	};
-    //va primero no olvides que debe poner primero los svg normales y luego convertirlos en componentes
-    //ahora si pon todo lo que falte no olvides poner el name en los svg y no olvides mencionar
-    //que debido al target se selecciona el Svg y no el div por eso trabajaremos con ellos
+  
     return(
         <>
         <div className="card-footer">

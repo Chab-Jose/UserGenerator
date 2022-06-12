@@ -1,4 +1,4 @@
-import "./card.css";
+
 import CardHeader from "./card-heard";
 import CardBody from "./card-body";
 import CardFooter from "./card-footer";

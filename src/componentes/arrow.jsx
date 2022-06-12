@@ -1,9 +1,8 @@
-import "./arrows.css";
+
 
 
 function Arrows({users, actual, previo, siguiente}) {
-   //pon los datos sin el hidden y el onclick los svg los aggarras del .txt que buscaste previamente
-   //ahora si pon todo lo que falta y comprueba que no hayya errores
+  
     return(
         <>
     
